@@ -3,7 +3,6 @@
 > library(readxl)
 > Students_Grades <- read_excel("Assignment 6 dataset.xlsx")
 > Students_Grades
-# A tibble: 20 × 4
    Name        Age Sex    Grade
    <chr>     <dbl> <chr>  <dbl>
  1 Raul         25 Male      80
@@ -103,7 +102,6 @@
 
 > Students_i <- subset(Students_Grades, grepl("i", Name))
 > Students_i
-# A tibble: 14 × 4
    Name        Age Sex    Grade
    <chr>     <dbl> <chr>  <dbl>
  1 Lauri        21 Female    90
